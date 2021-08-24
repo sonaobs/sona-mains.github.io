@@ -198,7 +198,6 @@ function handleQuestions() {
 
 let questionNumber = 1
 let playerScore = 0  
-let wrongAttempt = 0 
 let indexNumber = 0
 
 // function for displaying next question in the array to dom
@@ -250,7 +249,6 @@ function checkForAnswer() {
             const wrongLabelId = option.labels[0].id
             document.getElementById(wrongLabelId).style.backgroundColor = "red"
             document.getElementById(correctOption).style.backgroundColor = "green"
-            wrongAttempt++
             indexNumber++
             //set to delay question number till when next question loads
             setTimeout(() => {
@@ -318,7 +316,6 @@ function handleEndGame() {
     document.getElementById('remarks').innerHTML = remark
     document.getElementById('remarks').style.color = remarkColor
     document.getElementById('grade-percentage').innerHTML = playerGrade
-    document.getElementById('wrong-answers').innerHTML = wrongAttempt
     document.getElementById('right-answers').innerHTML = playerScore
     document.getElementById('score-modal').style.display = "flex"
 
@@ -328,7 +325,6 @@ function handleEndGame() {
 function closeScoreModal() {
     questionNumber = 1
     playerScore = 0
-    wrongAttempt = 0
     indexNumber = 0
     shuffledQuestions = []
     NextQuestion(indexNumber)

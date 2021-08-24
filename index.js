@@ -109,7 +109,7 @@ correctOption: "optionB"
     },
 
     {
-question: "The prior question was told to us in a short story. What was the name of this short story?",
+question: "The tale of how Sona had to flee was told us in a short story. What was the name of this short story?",
 optionA: "One Last Show",
 optionB: "Voices",
 optionC: "Demacian Heart",
@@ -186,8 +186,8 @@ correctOption: "optionB"
 let shuffledQuestions = [] //empty array to hold shuffled selected questions
 
 function handleQuestions() { 
-    //function to shuffle and push 10 questions to shuffledQuestions array
-    while (shuffledQuestions.length <= 9) {
+    //function to shuffle and push 20 questions to shuffledQuestions array
+    while (shuffledQuestions.length <= 19) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random)) {
             shuffledQuestions.push(random)
@@ -300,19 +300,19 @@ function handleEndGame() {
     let remarkColor = null
 
     // condition check for player remark and remark color
-    if (playerScore <= 3) {
-        remark = "Bad Grades, Keep Practicing."
+    if (playerScore <= 7) {
+        remark = "You've struck a bad chord! Feel free to dive deeper into Sona's lore, and try again."
         remarkColor = "red"
     }
-    else if (playerScore >= 4 && playerScore < 7) {
-        remark = "Average Grades, You can do better."
+    else if (playerScore >= 8 && playerScore < 13) {
+        remark = "Adagio! Your understanding of Sona's lore is remarkable."
         remarkColor = "orange"
     }
-    else if (playerScore >= 7) {
-        remark = "Excellent, Keep the good work going."
+    else if (playerScore >= 13) {
+        remark = "Crescendo! You're a true Sona lore afficinado, great work."
         remarkColor = "green"
     }
-    const playerGrade = (playerScore / 10) * 100
+    const playerGrade = (playerScore / 20) * 100
 
     //data to display to score board
     document.getElementById('remarks').innerHTML = remark

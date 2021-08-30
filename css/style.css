@@ -82,7 +82,6 @@ main{
 .game-options-container span{
     width: 45%;
     height: 3rem;
-    border: 2px solid darkgray;
     overflow: hidden;
     opacity: 80%;
     background-color: pink;
@@ -131,7 +130,6 @@ input[type=radio]:checked ~ .option {
     background: none;
     color: rgb(25, 25, 25);
     font-weight: 600;
-    border: 2px solid darkgray;
     opacity: 80%;
     background-color: pink;
     cursor: pointer;

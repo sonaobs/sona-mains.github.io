@@ -22,7 +22,6 @@ main{
     align-items: center;
     background-color: black;
     background: url('bg.png');
-    background-color : black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -93,9 +92,8 @@ main{
     overflow: hidden;
     opacity: 80%;
     background-color: pink;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5vh;
     border-radius: 15px;
-	
     z-index: 5;
 }
 

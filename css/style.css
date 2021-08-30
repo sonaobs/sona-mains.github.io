@@ -59,8 +59,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid darkgray;
-    border-radius: 25px;
     opacity: 80%;
     background-color: pink;
 	

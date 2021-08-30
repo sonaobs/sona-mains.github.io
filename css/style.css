@@ -284,7 +284,7 @@ input[type=radio]:checked ~ .option {
     }
 
     .game-question-container{
-        height: 14vh;
+        height: 22vh;
     }
 
     .game-question-container h1{

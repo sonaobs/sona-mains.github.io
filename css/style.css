@@ -30,6 +30,8 @@ main{
 }
 
 .game-quiz-container{
+	
+    z-index: 5;
     width: 40rem;
     height: 30rem;
     display: flex;

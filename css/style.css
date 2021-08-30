@@ -44,6 +44,9 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 25px;
+    opacity: 80%;
+    background-color: pink;
 }
 
 .game-details-container h1{

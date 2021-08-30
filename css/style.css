@@ -167,6 +167,7 @@ input[type=radio]:checked ~ .option {
     justify-content: center; 
     -webkit-animation: fadeIn 1.2s ease-in-out;
     animation: fadeIn 1.2s ease-in-out;
+    z-index: 5;
 }
 
 .modal-content-container{
@@ -177,6 +178,7 @@ input[type=radio]:checked ~ .option {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    z-index: 5;
 }
 
 .modal-content-container h1{
@@ -184,6 +186,7 @@ input[type=radio]:checked ~ .option {
     height: 3rem;
     color: lightgray;
     text-align: center;
+    z-index: 5;
 }
 
 .grade-details{

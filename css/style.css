@@ -75,7 +75,6 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid darkgray;
     opacity: 80%;
 }
 

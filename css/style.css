@@ -76,7 +76,6 @@ main{
 
 .game-options-container{
     width: 80%;
-    height: 14vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

@@ -76,7 +76,6 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    opacity: 80%;
 }
 
 .game-options-container span{

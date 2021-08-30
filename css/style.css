@@ -222,10 +222,10 @@ input[type=radio]:checked ~ .option {
 #footer {
     position: absolute;
     width: 100%;
-    height: 80vh;
+    height: 15vh;
     bottom: 0;
-background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgb(2 0 36 / 0%) 0%, rgb(255 255 255 / 0%) 35%, rgb(255 255 255 / 61%) 100%);
 }
 
 @media(min-width : 300px) and (max-width : 350px){

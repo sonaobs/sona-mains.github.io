@@ -83,6 +83,8 @@ main{
     align-items: center;
     justify-content: space-around;
     border-radius: 25px;
+	
+    z-index: 5;
 }
 
 .game-options-container span{
@@ -93,6 +95,8 @@ main{
     background-color: pink;
     margin-bottom: 0.2rem;
     border-radius: 15px;
+	
+    z-index: 5;
 }
 
 span label{
@@ -143,6 +147,7 @@ input[type=radio]:checked ~ .option {
     background-color: pink;
     cursor: pointer;
     outline: none;
+    z-index: 5;
 }
 .next-button-container button:hover{
     background-color: rgb(143, 93, 93);
